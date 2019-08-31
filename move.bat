@@ -2,6 +2,7 @@
 
 nircmd.exe sendkeypress spc
 
-TIMEOUT 10
+TIMEOUT (((%RANDOM% * 1700) / 32768) + 1)
 
-goto loop
+goto loop      
+ 
